@@ -176,6 +176,10 @@ It shows:
 
 ---
 
+**"If you build one of these tracking cameras, let me know or tag me — I'd love to see it in action! 📸✈️"**
+
+
+
 ## License
 
 GNU GPL V3. Have fun and build your own aerial tracker!
