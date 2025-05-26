@@ -3,6 +3,11 @@
 A low-cost camera tracker that follows nearby aircraft using ADS-B signals and a modified pan/tilt WiFi camera. Built with Python, a Raspberry Pi, rtl-sdr, and a unipolar stepper motor driver.
 
 ---
+<img src="docs/images/thumb2.png" alt="Motor on Camera" width="300"/>
+
+🎥 [Test 1 - Tracking](https://youtu.be/_JrbGSCT38Y)   https://youtu.be/_JrbGSCT38Y
+
+🎥 [Test 2 - Tracking](https://youtu.be/yWAEASqBwnk)   https://youtu.be/yWAEASqBwnk
 
 ## Features
 
