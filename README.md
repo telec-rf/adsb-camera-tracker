@@ -42,7 +42,10 @@ Before assembling the electronics, you must **modify the pan/tilt WiFi camera** 
 7. After the modification, turn the camera all the way to the left, with it facing upwards,
  and make a mark on the body below in the direction of the center of the lens, to mark the north, this point must be aligned with the real north.
 
-<img src="docs/images/camera4.png" alt="Motor on Camera" width="400"/>
+<img src="docs/images/camera.png" alt="Motor on Camera" width="300"/>
+
+<img src="docs/images/camera4.png" alt="Motor on Camera" width="300"/>
+
 
 📸 **Refer to the photos in the `/docs` folder** for more detail.
 
