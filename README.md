@@ -38,10 +38,11 @@ Before assembling the electronics, you must **modify the pan/tilt WiFi camera** 
 3. **Disconnect the motor wires** directly from the internal PCB.
 4. **Route the motor wires** out of the camera using a **small hole in the bottom of the housing**.
 5. **Label the wires** for pan and tilt (optional but recommended).
-6. **Route power supply 5v for the camera circuit
+6. **Route power supply 5v for the camera circuit**.
 7. After the modification, turn the camera all the way to the left, with it facing upwards,
  and make a mark on the body below in the direction of the center of the lens, to mark the north, this point must be aligned with the real north.
 
+<img src="docs/images/camera4.png" alt="Motor on Camera" width="400"/>
 
 📸 **Refer to the photos in the `/docs` folder** for more detail.
 
@@ -58,10 +59,10 @@ The circuit consists of:
 
 🖼️ Circuit schematic:
 
-<img src="docs/schematic.png" alt="Motor on Camera" width="400"/>
+<img src="docs/images/schematic.png" alt="Schematics" width="400"/>
 
 * The camera has an internal AC to DC 5v power supply, remove it, it is not safe or prudent to leave it, power the camera board with 5V together
-* 
+
 Make sure to power the motors with sufficient current, 1A is enough.
 
 ---
@@ -102,7 +103,11 @@ cd ~/web
 python3 -m http.server 8080
 ```
 
-### 3. (Optional) Run it as a systemd service
+### 3. Run Tracker.py
+Adjust the parameters within the tracker.py file as necessary, especially the precise location of the camera and the altitude, so that the calculations are done correctly. Also pay attention to the good alignment of the camera's north, this ensures better captures.
+Also adjust the address of your adsb server and also the correct serial port.
+
+### 4. (Optional) Run it as a systemd service
 
 Create `/etc/systemd/system/adsb-http.service`:
 
